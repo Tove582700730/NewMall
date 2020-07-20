@@ -24,6 +24,13 @@ public class WxPayController {
             data.put("fee_type", "CNY");//人民币
             data.put("total_fee", "1");//1分钱  单位是分
             data.put("spbill_create_ip", "123.12.12.123");
+            //Map<String, String> data = new HashMap<String, String>();
+            //data.put("body", "千锋-山科大");//商品描述
+           // data.put("out_trade_no", System.currentTimeMillis()+"");//商户订单号  唯一
+           // data.put("device_info", "");
+           // data.put("fee_type", "CNY");//人民币
+           // data.put("total_fee", "1");//1分钱  单位是分
+           // data.put("spbill_create_ip", "123.12.12.123");
             //这里使用的是内网穿透的ip，来调用下面的通知的接口
             data.put("notify_url", "http://vfbf68.natappfree.cc/pay/notifyUrl");//异步接收微信支付结果通知的回调地址
             data.put("trade_type", "NATIVE");  // 此处指定为扫码支付
