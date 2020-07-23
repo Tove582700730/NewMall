@@ -1,10 +1,10 @@
 package com.tove582700730.controller;
 
-import com.qianfeng.pojo.Book;
-import com.qianfeng.pojo.Shopping;
-import com.qianfeng.service.BookService;
-import com.qianfeng.service.ShoppingService;
-import com.qianfeng.util.ResultVo;
+import com.tove582700730.pojo.Book;
+import com.tove582700730.pojo.Shopping;
+import com.tove582700730.service.BookService;
+import com.tove582700730.service.ShoppingService;
+import com.tove582700730.util.ResultVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
