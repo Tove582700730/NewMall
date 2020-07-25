@@ -1,11 +1,11 @@
 package com.tove582700730.service;
 
-import com.qianfeng.dao.BookMapper;
-import com.qianfeng.dao.ShoppingMapper;
-import com.qianfeng.pojo.Book;
-import com.qianfeng.pojo.Shopping;
-import com.qianfeng.pojo.Users;
-import com.qianfeng.util.ResultVo;
+import com.tove582700730.dao.BookMapper;
+import com.tove582700730.dao.ShoppingMapper;
+import com.tove582700730.pojo.Book;
+import com.tove582700730.pojo.Shopping;
+import com.tove582700730.pojo.Users;
+import com.tove582700730.util.ResultVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
