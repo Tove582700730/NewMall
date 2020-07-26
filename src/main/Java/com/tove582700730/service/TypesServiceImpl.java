@@ -1,7 +1,7 @@
 package com.tove582700730.service;
 
-import com.qianfeng.dao.TypesMapper;
-import com.qianfeng.pojo.Types;
+import com.tove582700730.dao.TypesMapper;
+import com.tove582700730.pojo.Types;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
