@@ -55,6 +55,9 @@ public class Types implements Serializable {
     public Integer getPid() {
         return pid;
     }
+    public Integer getPid1() {
+        return pid;
+    }
 
     public void setPid(Integer pid) {
         this.pid = pid;
