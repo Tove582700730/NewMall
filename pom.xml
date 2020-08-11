@@ -149,6 +149,16 @@
       <artifactId>gson</artifactId>
       <version>2.8.2</version>
     </dependency>
+      <dependency>
+          <groupId>Tove582700730</groupId>
+          <artifactId>NewMall</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.5</version>
+    </dependency>
   </dependencies>
   <!--配置goeasy私有仓库 防止maven仓库中没有-->
   <repositories>
