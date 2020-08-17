@@ -28,7 +28,7 @@
         </javaTypeResolver>
 
         <!-- 指定生成pojo的包和此包在项目中的地址； -->
-        <javaModelGenerator targetPackage="com.qianfeng.pojo"
+        <javaModelGenerator targetPackage="com.tove582700730.pojo"
                             targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="true"/>

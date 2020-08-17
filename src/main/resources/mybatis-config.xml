@@ -16,6 +16,6 @@
         <!--<typeAlias type="com.qianfeng.pojo.Student" alias="Student"></typeAlias>-->
 
         <!--上面使用比较麻烦，我们直接配置整个包，mapper中直接使用类名即可-->
-        <package name="com.qianfeng.pojo"></package>
+        <package name="com.tove582700730.pojo"></package>
     </typeAliases>
 </configuration>
